@@ -21,10 +21,10 @@ public class Connection implements Listener {
 		 try {
 		        // Construct data
 		        String data = URLEncoder.encode("url", "UTF-8") + "=" + URLEncoder.encode(website, "UTF-8");
-		        data += "&" + URLEncoder.encode("alias", "UTF-8") + "=" + URLEncoder.encode(Alias, "UTF-8");
+		        data += "&" + URLEncoder.encode("shorturl", "UTF-8") + "=" + URLEncoder.encode(Alias, "UTF-8");
 		 
 		        // Send data
-		        URL url = new URL("http://tinyurl.com/create.php");
+		        URL url = new URL("http://is.gd/create.php");
 		        URLConnection conn = url.openConnection();
 		        conn.setDoOutput(true);
 		        OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
