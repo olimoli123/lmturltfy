@@ -1,0 +1,27 @@
+Let Me Tinyurl That For You :
+Version: v2
+
+This is my first proper plugin, if you need anything added to it.. please let me know :)
+ 
+Commands:
+ /url [url] [alias] 
+ 
+Features:
+- Allows you to shorten your URL's before sending them ingame.
+- Shortens URL's that are too long in chat.
+
+Config: 
+- No Config!
+
+Download The Plugin:
+http://dev.bukkit.org/server-mods/lmturltfy/files/
+ 
+Changelog:
+
+Version 2
+- Added Listener and Cleaned up Code.
+Version 0.1
+- Plugin Released!
+
+To Do:
+- Listen to chat for long links and shorten them!
